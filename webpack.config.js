@@ -5,7 +5,7 @@ module.exports = {
     devtool: 'source-map',
     entry: [
         'webpack-hot-middleware/client',
-        './app.js'
+        './index.js'
     ],
     output: {
         path: __dirname,
