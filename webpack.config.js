@@ -5,10 +5,10 @@ module.exports = {
     devtool: 'source-map',
     entry: [
         'webpack-hot-middleware/client',
-        './index.js'
+        './app/index.js'
     ],
     output: {
-        path: __dirname,
+        path: __dirname +"/dist",
         publicPath: '/static/',
         filename: 'bundle.js'
     },
